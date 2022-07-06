@@ -1,38 +1,806 @@
-.App {
+.logo {
+  margin-left: 10%;
+  margin-top: 0.1%;
+}
+.Container {
+  display: flex;
+}
+.img-1 {
+  width: 100%;
+  height: 100%;
+}
+.form-box {
+  width: 380px;
+  height: 510px;
+  position: relative;
+  margin: 6% auto;
+  background: whitesmoke;
+  padding: 5px;
+  margin-right: 10%;
+  border-radius: 10%;
+  margin-top: -35%;
+  border-color: #707070;
+}
+.dys {
+  color: #042419;
+  font-size: 300%;
+  font-weight: bold;
+  margin-left: 18%;
+  font-family: "Poppins", sans-serif;
+  margin-top: -5%;
+}
+.sign {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.create {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.google {
+  width: 250px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px whitesmoke;
+  border-radius: 10%;
+  margin-right: 10%;
+  height: 50px;
+  text-align: center;
+  margin-top: 5%;
+}
+.sign-google {
+  margin-top: 5%;
+  font-family: "Poppins", sans-serif;
+}
+.google-pic {
+  margin-top: 5%;
+}
+.facebook {
+  width: 250px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px whitesmoke;
+  border-radius: 10%;
+  margin-right: 10%;
+  height: 50px;
+  text-align: center;
+  margin-top: 5%;
+}
+.sign-facebook {
+  margin-top: 5%;
+  font-family: "Poppins", sans-serif;
+}
+.facebook-pic {
+  margin-top: -8%;
+}
+.or {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: -15%;
+}
+.create-acc {
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mail {
+  font-family: "Poppins", sans-serif;
+  margin-left: 25%;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cynthia-mail {
+  border-radius: 10px;
+  margin-left: 25%;
+  width: 100%;
+  height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.input-box {
+  font-size: large;
+}
+.create-button {
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.form-button {
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(2, 46, 2);
+  font-size: large;
+  width: 70%;
+  margin-left: -10%;
   color: white;
 }
+/* .Home {
+  background-color: #042419;
+  margin-top: -0.5%;
+  margin-left: -0.5%;
+  margin-right: -0.5%;
+} */
 
-.App-link {
-  color: #61dafb;
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  width: 89.1%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-style: solid;
+  border-color: white;
+  background-color: #042419;
+  margin-left: -9%;
+
+  margin-top: -0.5%;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+
+.nav-links li a {
+  transition: all 0.3 ease 0s;
+}
+
+.nav-links li a:hover {
+  color: black;
+}
+button {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+}
+button:hover {
+  background-color: black;
+}
+nav {
+  order: 1;
+}
+.cat {
+  margin-left: 5%;
+}
+.sub {
+  margin-left: 5%;
+}
+.sea {
+  margin-left: 5%;
+}
+.hom {
+  margin-left: -7%;
+}
+.phone {
+  margin-top: 50;
+  margin-left: 10rem;
+  margin-bottom: 15rem;
+}
+.body-1 {
+  display: flex;
+  background-color: #042419;
+  margin-left: -5%;
+  margin-right: -1.5%;
+  width: 105.5%;
+}
+
+.update {
+  margin-left: 15%;
+  margin-top: 5%;
+  color: #fff;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.follow {
+  margin-top: 25%;
+}
+.feat {
+  margin-left: 10%;
+  color: black;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.lap {
+  margin-top: 10%;
+  margin-left: 3%;
+  width: 20%;
+  height: 20%;
+}
+.body-2 {
+  display: flex;
+}
+.lag {
+  margin-top: 25%;
+  margin-left: 3%;
+  font-size: 150%;
+}
+.start {
+  margin-top: 32%;
+  margin-left: -25%;
+  font-size: 100%;
+}
+.face {
+  margin-left: 10%;
+  width: 20%;
+  height: 20%;
+  margin-top: 10%;
+}
+.stun {
+  margin-top: 25%;
+  font-size: 150%;
+  margin-left: 2%;
+}
+.art {
+  margin-top: 32%;
+  font-size: 100%;
+  margin-left: -10%;
+}
+.gal {
+  margin-top: 50%;
+  width: 20%;
+  height: 20%;
+  margin-left: -92%;
+}
+
+.silicon {
+  margin-top: 60%;
+  font-size: 150%;
+  margin-left: 4%;
+}
+.dubbed {
+  margin-top: 70%;
+  margin-left: -23%;
+}
+.gym {
+  width: 20%;
+  height: 20%;
+  margin-top: 50%;
+  margin-left: 10%;
+}
+.cal {
+  margin-top: 60%;
+  margin-left: 3%;
+  font-size: 150%;
+}
+.weight {
+  margin-top: 70%;
+  margin-left: -20%;
+}
+.bridge {
+  width: 20%;
+  height: 20%;
+  margin-top: 85%;
+  margin-left: -93%;
+}
+.energy {
+  margin-top: 95%;
+  font-size: 150%;
+  margin-left: 5%;
+}
+.resource {
+  margin-top: 105%;
+  margin-left: -30%;
+}
+.phone-2 {
+  width: 20%;
+  height: 20%;
+  margin-top: 85%;
+  margin-left: 13%;
+}
+.iphone {
+  margin-top: 90%;
+  margin-left: 1%;
+  font-size: 150%;
+}
+.apple {
+  margin-top: 103%;
+  margin-left: -19%;
+}
+.story {
+  margin-top: 120%;
+  margin-left: -90%;
+  color: black;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.wiz {
+  width: 30%;
+  height: 20%;
+  margin-top: 130%;
+  margin-left: -22%;
+}
+.cot {
+  width: 30%;
+  height: 20%;
+  margin-top: 130%;
+  margin-left: 5%;
+}
+.can {
+  width: 30%;
+  height: 20%;
+  margin-top: 130%;
+  margin-left: 5%;
+}
+.made {
+  margin-top: 160%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: -98%;
+}
+.album {
+  margin-left: -29%;
+  margin-top: 175%;
+  font-size: 100%;
+}
+.sil {
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 160%;
+  margin-left: 7%;
+}
+.sil-2 {
+  margin-top: 175%;
+  font-size: 100%;
+  margin-left: -25%;
+}
+.move {
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 160%;
+  margin-left: 17%;
+}
+.can-eco {
+  margin-top: 175%;
+  font-size: 100%;
+  margin-left: -20%;
+}
+.book {
+  width: 30%;
+  height: 20%;
+  margin-top: 190%;
+  margin-left: -96%;
+}
+.plane {
+  width: 30%;
+  height: 20%;
+  margin-top: 190%;
+  margin-left: 2%;
+}
+.law {
+  width: 30%;
+  height: 20%;
+  margin-top: 190%;
+  margin-left: 4%;
+}
+.read {
+  margin-top: 220%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: -95%;
+}
+.fly {
+  margin-top: 218%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 5%;
+}
+.uni {
+  margin-top: 218%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 7%;
+}
+.recent {
+  margin-top: 230%;
+  margin-left: -25%;
+}
+.ibom {
+  margin-top: 233%;
+  margin-left: -30%;
+}
+.sen {
+  margin-left: -25%;
+  margin-top: 233%;
+}
+.fb {
+  width: 30%;
+  height: 20%;
+  margin-top: 250%;
+  margin-left: -97%;
+}
+.spo {
+  width: 30%;
+  height: 20%;
+  margin-top: 250%;
+  margin-left: 3%;
+}
+.food {
+  width: 30%;
+  height: 20%;
+  margin-top: 250%;
+  margin-left: 3%;
+}
+.open {
+  margin-top: 280%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: -95%;
+}
+.user {
+  margin-top: 295%;
+  margin-left: -20%;
+}
+.lau {
+  margin-left: 15%;
+  margin-top: 280%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.riv {
+  margin-top: 293%;
+  margin-left: -20%;
+}
+.beau {
+  margin-left: 6%;
+  margin-top: 280%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.dev {
+  margin-top: 295%;
+  margin-left: -25%;
+}
+.see {
+  margin-top: 310%;
+  color: black;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: -90%;
+}
+.car {
+  margin-top: 320%;
+  width: 30%;
+  height: 20%;
+  margin-left: -17%;
+}
+.rem {
+  margin-top: 339%;
+  margin-left: -30%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.tech {
+  margin-top: 345%;
+  margin-left: -27%;
+}
+.vr {
+  margin-top: 320%;
+  width: 30%;
+  height: 20%;
+  margin-left: 3%;
+}
+.psvr {
+  margin-top: 337%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: -30%;
+}
+.immerse {
+  margin-top: 346%;
+  margin-left: -30%;
+}
+.airpod {
+  margin-top: 320%;
+  width: 30%;
+  height: 20%;
+}
+.fut {
+  margin-top: 335%;
+  margin-left: -28%;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.believe {
+  margin-top: 346%;
+  margin-left: -23%;
+}
+.sep-1 {
+  margin-top: 357%;
+  margin-left: -90%;
+}
+.sep-2 {
+  margin-top: 357%;
+  margin-left: 25%;
+}
+.sep-3 {
+  margin-top: 357%;
+  margin-left: 25%;
+}
+.comm {
+  margin-left: -48%;
+  margin-top: 370%;
+  width: 40%;
+  height: 20%;
+}
+.comm-1 {
+  color: black;
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 390%;
+  margin-left: -30%;
+}
+.comm-2 {
+  margin-top: 399%;
+  margin-left: -30%;
+  font-size: 200%;
+}
+.asian {
+  width: 20%;
+  height: 20%;
+  margin-top: 410%;
+  margin-left: -32%;
+}
+.member {
+  margin-top: 450%;
+  background-color: #042419;
+  width: 102%;
+  margin-left: -62%;
+}
+.bec {
+  color: #fff;
+  margin-left: 20%;
+}
+.Ema {
+  color: #fff;
+  margin-left: 20%;
+  margin-top: 0%;
+}
+.pas {
+  color: #fff;
+  margin-left: 20%;
+  margin-top: 0%;
+}
+.gen {
+  color: #fff;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.con {
+  color: #fff;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.social {
+  margin-left: 45%;
+  margin-top: -5%;
+  margin-bottom: 10%;
+}
+.stay {
+  color: #fff;
+  margin-left: 70%;
+}
+.join {
+  color: #fff;
+  margin-left: 70%;
+}
+.Email-1 {
+  color: #fff;
+  margin-left: 70%;
+  margin-top: 10%;
+}
+.look {
+  color: #fff;
+  margin-left: 70%;
+}
+.find {
+  color: #fff;
+  margin-left: 70%;
+}
+.cat-1 {
+  display: flex;
+  background-color: #042419;
+  margin-left: -1%;
+  margin-right: -1.5%;
+
+  width: 101.5%;
+}
+.poli {
+  color: #fff;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 10%;
+}
+.scin {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.crime {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.tra {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.cate {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.heal {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10%;
+  margin-left: -5%;
+}
+.foodie {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10%;
+  margin-left: -4%;
+}
+.Edu {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10%;
+  margin-left: -4%;
+}
+.care {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10%;
+  margin-left: -4%;
+}
+.techno {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20%;
+  margin-left: -5%;
+}
+.expo {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20%;
+  margin-left: -4%;
+}
+.comp {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20%;
+  margin-left: -6%;
+}
+.shel {
+  color: #fff;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20%;
+  margin-left: -4%;
+}
+.joel {
+  color: #042419;
+  margin-left: 10%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 40%;
+  margin-left: -4%;
+}
+.sub-1 {
+  display: flex;
+  background-color: #042419;
+  margin-left: -1%;
+  margin-right: -1.5%;
+  width: 101.5%;
+}
+.sub-text-1 {
+  font-size: 250%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 30%;
+}
+.sub-1-text {
+  border: 8px solid white;
+  margin-top: 10%;
+  margin-left: -10%;
+  width: 150%;
+  height: 30%;
+  border-radius: 20px;
+}
+.down {
+  margin-left: 50%;
+  margin-top: 60%;
+  color: #042419;
+}
+.news {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 150%;
+  margin-left: 5%;
+  margin-top: -2%;
+}
+.sub-box {
+  margin-bottom: 5%;
+  margin-left: 5%;
+  width: 40%;
+  height: 50%;
+}
+.kid-plane {
+  width: 30%;
+  height: 30%;
+  margin-left: 18%;
+}
+.sub-but {
+  margin-left: 5%;
+}
+.sea-body {
+  display: flex;
+  background-color: #042419;
+  margin-left: -1%;
+  margin-right: -1.5%;
+  width: 101.5%;
+}
+.mag {
+  margin-top: 5%;
+}
+.dee {
+  margin-top: 60%;
+  color: #042419;
+}
+.search-txt {
+  margin-left: 150%;
+  width: 200%;
+  border-radius: 20px;
+  margin-top: 50%;
+  height: 100%;
+}
+.top {
+  margin-left: 160%;
+  background-color: #fff;
+}
+.trend {
+  margin-left: 190%;
+  margin-top: -19%;
+  background-color: #fff;
+}
+.all {
+  margin-left: 240%;
+  margin-top: -19%;
+  background-color: #fff;
+}
+.tag {
+  margin-left: 280%;
+  margin-top: -19%;
+  background-color: #fff;
 }
